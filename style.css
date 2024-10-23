@@ -1,0 +1,117 @@
+.large-font{
+    font-size: 74px;
+}
+.secentdlg{
+    font-size: 48px;
+}
+.line{
+    width: 240px;
+    height: 0px;
+    border-radius: 30px;
+    border: 10px solid #8A47F6;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.colar{
+    color: #8A47F6;
+}
+.colarbtn{
+    background-color: #FE8C45;
+}
+.colarbtn:hover{
+
+    background-color:#e97d3a ;
+}
+.dot{
+    margin-left: 1000px;
+    align-items: center;
+    & div{
+        height: 16px;
+        width: 16px;
+        background-color: #E1E1E1;
+        border-radius: 50%;
+    }
+    & #one{
+        height: 20px;
+        width: 20px;
+        background-color: #8A47F6;
+    }
+}
+.about-us{
+    height: 655px;
+    width: auto;
+    background-color:#dcd4e7;
+}
+.reg5{
+    height: 532px;
+}
+.about-photo{ 
+    margin-left: 70px;
+    margin-top: 85px;
+}
+.about-text{
+    margin-right: 80px;
+    margin-top: 60px;
+}
+.about-font{
+    font-size: 18px;
+}
+.portfolio{
+    margin-top: 120px;
+}
+.imglink{
+    align-items: center;
+}
+flogo{
+    height: 39px;
+    width: 213px;
+}
+
+@media(max-device-width:767px){
+    .logo{
+        width: 150px;
+    }
+    .large-font{
+        font-size: 25px;
+    }
+    .line{
+        display: none;
+    }
+    .slide2{
+        display: none;
+    }
+    .cad{
+        & div{
+            margin-bottom: 10px;
+        }
+    }
+    .about-us{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        & div{
+            & h1{
+                font-size: 20px;
+            }
+            & p{
+                font-size: 14px;
+            }
+        }
+    }
+    .foter{
+        & img{
+            width: 50px;
+        }
+        & flogo{
+            width: 100px;
+        }
+        & div{
+            & a{
+                font-size: 10px;
+            }
+        }
+    }
+    .secentdlg{
+        font-size: 25px;
+    }
+}
